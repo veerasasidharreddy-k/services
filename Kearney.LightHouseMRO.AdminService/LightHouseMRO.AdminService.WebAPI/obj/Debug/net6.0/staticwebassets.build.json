@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TgUahvjfEDM3z519nbNkvGE4SZfoTpkoGazILVBsgsA=",
+  "Source": "LightHouseMRO.AdminService.WebAPI",
+  "BasePath": "_content/LightHouseMRO.AdminService.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightHouseMRO.AdminService.WebAPI", "LightHouseMRO.AdminService.WebAPI\LightHouseMRO.AdminService.WebAPI.csproj", "{162B7A9A-1B20-404F-BBAD-14048BA2D01F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightHouseMRO.AdminService.Domain", "LightHouseMRO.AdminService.Domain\LightHouseMRO.AdminService.Domain.csproj", "{5F5F50AE-A4FB-4061-9DB8-2863EEBB4AE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A3ACC77-1C4B-41F9-8B3B-DC3C90F3B638}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightHouseMRO.AdminService.Infrastructure", "LightHouseMRO.AdminService.Infrastructure\LightHouseMRO.AdminService.Infrastructure.csproj", "{EE787BEB-6DBB-4274-A664-B331793C5D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightHouseMRO.AdminService.Core", "LightHouseMRO.AdminService.Core\LightHouseMRO.AdminService.Core.csproj", "{4D16ABBB-802F-4F79-B253-95917F7EF39E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{162B7A9A-1B20-404F-BBAD-14048BA2D01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162B7A9A-1B20-404F-BBAD-14048BA2D01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162B7A9A-1B20-404F-BBAD-14048BA2D01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162B7A9A-1B20-404F-BBAD-14048BA2D01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5F50AE-A4FB-4061-9DB8-2863EEBB4AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5F50AE-A4FB-4061-9DB8-2863EEBB4AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5F50AE-A4FB-4061-9DB8-2863EEBB4AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5F50AE-A4FB-4061-9DB8-2863EEBB4AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE787BEB-6DBB-4274-A664-B331793C5D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE787BEB-6DBB-4274-A664-B331793C5D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE787BEB-6DBB-4274-A664-B331793C5D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE787BEB-6DBB-4274-A664-B331793C5D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D16ABBB-802F-4F79-B253-95917F7EF39E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D16ABBB-802F-4F79-B253-95917F7EF39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D16ABBB-802F-4F79-B253-95917F7EF39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D16ABBB-802F-4F79-B253-95917F7EF39E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EF09122-FF9B-4DF7-A1AE-4C37884B29E2}
+	EndGlobalSection
+EndGlobal

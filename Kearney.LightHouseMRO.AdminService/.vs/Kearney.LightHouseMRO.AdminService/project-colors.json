@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4b95e632-07ba-424d-a209-c30c6252c41b": {
+      "ProjectGuid": "4b95e632-07ba-424d-a209-c30c6252c41b",
+      "DisplayName": "WebAPI",
+      "ColorIndex": 0
+    },
+    "162b7a9a-1b20-404f-bbad-14048ba2d01f": {
+      "ProjectGuid": "162b7a9a-1b20-404f-bbad-14048ba2d01f",
+      "DisplayName": "LightHouseMRO.AdminService.WebAPI",
+      "ColorIndex": 1
+    },
+    "5f5f50ae-a4fb-4061-9db8-2863eebb4ae7": {
+      "ProjectGuid": "5f5f50ae-a4fb-4061-9db8-2863eebb4ae7",
+      "DisplayName": "LightHouseMRO.AdminService.Domain",
+      "ColorIndex": 2
+    },
+    "4a3acc77-1c4b-41f9-8b3b-dc3c90f3b638": {
+      "ProjectGuid": "4a3acc77-1c4b-41f9-8b3b-dc3c90f3b638",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 3
+    },
+    "ee787beb-6dbb-4274-a664-b331793c5d0a": {
+      "ProjectGuid": "ee787beb-6dbb-4274-a664-b331793c5d0a",
+      "DisplayName": "LightHouseMRO.AdminService.Infrastructure",
+      "ColorIndex": 4
+    },
+    "4d16abbb-802f-4f79-b253-95917f7ef39e": {
+      "ProjectGuid": "4d16abbb-802f-4f79-b253-95917f7ef39e",
+      "DisplayName": "LightHouseMRO.AdminService.Core",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

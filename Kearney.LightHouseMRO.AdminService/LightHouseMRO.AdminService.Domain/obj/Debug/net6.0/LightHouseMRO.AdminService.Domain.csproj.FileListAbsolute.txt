@@ -1,0 +1,12 @@
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\bin\Debug\net6.0\LightHouseMRO.AdminService.Domain.deps.json
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\bin\Debug\net6.0\LightHouseMRO.AdminService.Domain.dll
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\bin\Debug\net6.0\ref\LightHouseMRO.AdminService.Domain.dll
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\bin\Debug\net6.0\LightHouseMRO.AdminService.Domain.pdb
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\obj\Debug\net6.0\LightHouseMRO.AdminService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\obj\Debug\net6.0\LightHouseMRO.AdminService.Domain.AssemblyInfoInputs.cache
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\obj\Debug\net6.0\LightHouseMRO.AdminService.Domain.AssemblyInfo.cs
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\obj\Debug\net6.0\LightHouseMRO.AdminService.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\obj\Debug\net6.0\LightHouseMRO.AdminService.Domain.dll
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\obj\Debug\net6.0\ref\LightHouseMRO.AdminService.Domain.dll
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\obj\Debug\net6.0\LightHouseMRO.AdminService.Domain.pdb
+C:\Projects\01_LightHouseMRO\01_Code\LightHouseMRO\src\services\Kearney.LightHouseMRO.AdminService\LightHouseMRO.AdminService.Domain\obj\Debug\net6.0\LightHouseMRO.AdminService.Domain.csproj.AssemblyReference.cache
