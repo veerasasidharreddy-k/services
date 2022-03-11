@@ -19,6 +19,7 @@ namespace LightHouseMRO.AdminService.Infrastructure.Data
         private readonly IDbTransaction _dbTransaction;
 
         public IClientRepository ClientRepository { get; }
+        public IUserRepository UserRepository { get; }
 
         public UnitOfWork(string connectionString)
         {
@@ -30,6 +31,7 @@ namespace LightHouseMRO.AdminService.Infrastructure.Data
             _dbTransaction = _dbConnection.BeginTransaction();
 
             ClientRepository = new ClientRepository(_dbTransaction, rowInsertRetrievalQuery);
+            UserRepository = new UserRepository(_dbTransaction, rowInsertRetrievalQuery);
         }
 
         public void Commit()

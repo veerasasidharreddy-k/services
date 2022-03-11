@@ -4,12 +4,14 @@
 using LightHouseMRO.AdminService.Core.Clients.Queries.GetClients;
 using LightHouseMRO.AdminService.Domain.Dtos.Client;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace LightHouseMRO.AdminService.WebAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ClientController : ControllerBase
@@ -23,8 +25,8 @@ namespace LightHouseMRO.AdminService.WebAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ClientDto>>> Get()
         {
-            var clients = await _mediator.Send(new GetClientsQuery());
-            return Ok(clients.Items);
+            //var clients = await _mediator.Send(new GetClientsQuery());
+            return Ok("sasi");
         }
 
         // GET api/<ClientController>/5

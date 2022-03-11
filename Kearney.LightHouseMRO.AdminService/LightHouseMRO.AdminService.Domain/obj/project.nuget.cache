@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hp6zn9PuSjlDf3rPzKVcl4EvVyhqM9sDaajcz8erhMPrwPR7LPic2tAiydMQSNsqRGOu2f3C7NR2yAEQmN4MKw==",
+  "dgSpecHash": "kdKEHmXCEtkJpfymVqhGdO8XzEn/59k0Us2eOUefTsZo2c9M0j0buqhBaCcXdi/xvGZuLRETIjAGorahu4pmCg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Domain\\LightHouseMRO.AdminService.Domain.csproj",
+  "projectFilePath": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Domain/LightHouseMRO.AdminService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

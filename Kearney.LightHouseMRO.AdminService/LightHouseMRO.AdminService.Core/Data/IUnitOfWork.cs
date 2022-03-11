@@ -12,6 +12,7 @@ namespace LightHouseMRO.AdminService.Core.Data
     public interface IUnitOfWork : IDisposable
     {
         IClientRepository ClientRepository { get; }
+        IUserRepository UserRepository { get; }
         void Commit();
     }
 }

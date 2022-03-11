@@ -1,11 +1,18 @@
-﻿using Azure.Identity;
+﻿using System.Text;
+using Azure.Identity;
 using LightHouseMRO.AdminService.Core.Extensions;
 using LightHouseMRO.AdminService.Infrastructure.Extensions;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.Identity.Web;
+using Microsoft.IdentityModel.Logging;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//IdentityModelEventSource.ShowPII = true;
 // Load configuration from Azure App Configuration
-builder.Configuration.AddAzureAppConfiguration(options =>
+/*builder.Configuration.AddAzureAppConfiguration(options =>
 {
     options.Connect(builder.Configuration.GetValue<string>("ConnectionStrings:AppConfig"))
            // Load all keys that start with `AdminService:` and have no label
@@ -22,9 +29,34 @@ builder.Configuration.AddAzureAppConfiguration(options =>
                    "0edeaa9c-d8e0-491c-bd2f-02a25d7ab9d8",
                    "8hi7Q~VW3HQsZTSo3OkbSmgx~E_x_VElwihya"));
            });
-});
+});*/
 
 // Add services to the container.
+
+// Setting configuration for protected web api
+
+
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
+});
+
+builder.Services.AddAuthentication()
+                .AddMicrosoftIdentityWebApi(builder.Configuration, "AzureAd", "AzureAd");
+
+
+builder.Services
+    .AddAuthorization();
 
 builder.Services.AddControllers();
 builder.Services.AddAzureAppConfiguration();
@@ -46,6 +78,8 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

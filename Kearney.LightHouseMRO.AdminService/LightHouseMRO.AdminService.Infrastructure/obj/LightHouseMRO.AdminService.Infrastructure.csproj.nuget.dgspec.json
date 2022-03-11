@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Infrastructure\\LightHouseMRO.AdminService.Infrastructure.csproj": {}
+    "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Infrastructure/LightHouseMRO.AdminService.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Core\\LightHouseMRO.AdminService.Core.csproj": {
+    "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Core/LightHouseMRO.AdminService.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Core\\LightHouseMRO.AdminService.Core.csproj",
+        "projectUniqueName": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Core/LightHouseMRO.AdminService.Core.csproj",
         "projectName": "LightHouseMRO.AdminService.Core",
-        "projectPath": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Core\\LightHouseMRO.AdminService.Core.csproj",
-        "packagesPath": "C:\\Users\\veerasasidhar.reddyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Core\\obj\\",
+        "projectPath": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Core/LightHouseMRO.AdminService.Core.csproj",
+        "packagesPath": "/Users/veerasasidharreddykarri/.nuget/packages/",
+        "outputPath": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\veerasasidhar.reddyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/veerasasidharreddykarri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Domain\\LightHouseMRO.AdminService.Domain.csproj": {
-                "projectPath": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Domain\\LightHouseMRO.AdminService.Domain.csproj"
+              "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Domain/LightHouseMRO.AdminService.Domain.csproj": {
+                "projectPath": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Domain/LightHouseMRO.AdminService.Domain.csproj"
               }
             }
           }
@@ -50,7 +44,7 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[10.3.6, )"
+              "version": "[10.4.0, )"
             },
             "MediatR": {
               "target": "Package",
@@ -60,6 +54,10 @@
               "target": "Package",
               "version": "[10.0.1, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -67,6 +65,14 @@
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.16.0, )"
             }
           },
           "imports": [
@@ -84,32 +90,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Domain\\LightHouseMRO.AdminService.Domain.csproj": {
+    "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Domain/LightHouseMRO.AdminService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Domain\\LightHouseMRO.AdminService.Domain.csproj",
+        "projectUniqueName": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Domain/LightHouseMRO.AdminService.Domain.csproj",
         "projectName": "LightHouseMRO.AdminService.Domain",
-        "projectPath": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Domain\\LightHouseMRO.AdminService.Domain.csproj",
-        "packagesPath": "C:\\Users\\veerasasidhar.reddyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Domain\\obj\\",
+        "projectPath": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Domain/LightHouseMRO.AdminService.Domain.csproj",
+        "packagesPath": "/Users/veerasasidharreddykarri/.nuget/packages/",
+        "outputPath": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\veerasasidhar.reddyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/veerasasidharreddykarri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -142,40 +142,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Infrastructure\\LightHouseMRO.AdminService.Infrastructure.csproj": {
+    "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Infrastructure/LightHouseMRO.AdminService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Infrastructure\\LightHouseMRO.AdminService.Infrastructure.csproj",
+        "projectUniqueName": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Infrastructure/LightHouseMRO.AdminService.Infrastructure.csproj",
         "projectName": "LightHouseMRO.AdminService.Infrastructure",
-        "projectPath": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Infrastructure\\LightHouseMRO.AdminService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\veerasasidhar.reddyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Infrastructure\\obj\\",
+        "projectPath": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Infrastructure/LightHouseMRO.AdminService.Infrastructure.csproj",
+        "packagesPath": "/Users/veerasasidharreddykarri/.nuget/packages/",
+        "outputPath": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\veerasasidhar.reddyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/veerasasidharreddykarri/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Core\\LightHouseMRO.AdminService.Core.csproj": {
-                "projectPath": "C:\\Projects\\01_LightHouseMRO\\01_Code\\LightHouseMRO\\src\\services\\Kearney.LightHouseMRO.AdminService\\LightHouseMRO.AdminService.Core\\LightHouseMRO.AdminService.Core.csproj"
+              "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Core/LightHouseMRO.AdminService.Core.csproj": {
+                "projectPath": "/Users/veerasasidharreddykarri/Documents/MROLightHouse/API/services/services/Kearney.LightHouseMRO.AdminService/LightHouseMRO.AdminService.Core/LightHouseMRO.AdminService.Core.csproj"
               }
             }
           }
@@ -200,7 +194,7 @@
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -218,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }
